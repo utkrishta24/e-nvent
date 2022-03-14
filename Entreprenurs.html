@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+	
+        <link href="./dist/output.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+       <link href="./dist/tailwind.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>entrepreneurs</title>
+        <link rel="stylesheet" href="tailwind.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    </head>
+
+    <body class="bg-body text-white font-poppins ">
+        <header class="py-6">
+            <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+                <div class="text-lg font-bold">E-vent</div>
+                <div class="hidden md:flex space-x-12 items-center">
+                    <a href="/index.html" >Home</a>
+                    <a href="/mentor.html">Mentor</a>
+                    <a href="/Entreprenurs.html" class="text-selected-text">Entreprenurs</a>
+                    <a href="/investors.html">Investor's</a>
+                    <a href="#"><button class="px-6 py-2 bg-theme font-bold">LogIn</button></a>
+                </div>
+                <div class="md:hidden">
+                    <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+                </div>
+            </div>
+        </header>
+       
+        <div class="flex justify-center" style="
+        margin-bottom: 50px;
+    ">
+            <div class="mb-3" style="
+            margin-top: 40px;
+            width: 800px">
+              <div class="input-group relative flex items-stretch  mb-4 py-50">
+                <input type="search" class="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-transparent bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                <button class="btn px-6 py-2.5 bg-transparent border- text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex items-center" type="button" id="button-addon2">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+	<!-- Clients -->
+    <div class="container mt-25 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 id="clients" class="secondary-title">Projects In Working</h2>
+            <p class="section-paragraph"> Multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+
+            <!-- Client1 -->
+            <div class="space-y-12 my-16">
+                <div class="w-full border border-nav p-10 lg:px-28 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+                    
+                   
+
+                    <!-- Client info -->
+                    <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                        <h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+                    </div>
+                    
+                    <div class="grid  grid-cols-6 gap-4 mt-10">
+                        <div class="col-span-4 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-4...">
+                            <p class="text-secondary">This Real-estate business was lead by two indiviaduals arjt & ankit, building it all the way from scartch mentored by Gautam Grover</p>
+                        </div>
+                        <div class="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-2 xl:col-span-2...">
+                            <div class="p-2 flex">
+                                <div class="w-1/2">   </div>
+                                <div class="w-1/2 flex justify-end">
+                                    <button onclick="Collab()" class="bg-transparent text-secondary p-2 rounded text-sm w-auto">
+                                        Collab
+                                    </button>
+                                    <button onclick="Submit()"  class="bg-transparent text-secondary p-2  rounded text-lg  hover:bg-blue-500 hover:text-white py-2 px-4 border border-nav hover:border-transparent">                                       
+                                       Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+               
+            </div>
+            <!-- Client2 -->
+            <div class="space-y-12 my-16">
+                <div class="w-full border border-nav p-10 lg:px-28 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+                    
+                   
+
+                    <!-- Client info -->
+                    <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                        <h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+                    </div>
+                    
+                    <div class="grid  grid-cols-6 gap-4 mt-10">
+                        <div class="col-span-4 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-4...">
+                            <p class="text-secondary">This Real-estate business was lead by two indiviaduals arjt & ankit, building it all the way from scartch mentored by Gautam Grover</p>
+                        </div>
+                        <div class="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-2 xl:col-span-2...">
+                            <div class="p-2 flex">
+                                <div class="w-1/2">   </div>
+                                <div class="w-1/2 flex justify-end">
+                                    <button id="Collab" onclick="Collab()" class="bg-transparent text-secondary p-2 rounded text-sm w-auto">
+                                        Collab
+                                    </button>
+                                    <button id="Submit" onclick="Submit()" class="bg-transparent text-secondary p-2  rounded text-lg  hover:bg-blue-500 hover:text-white py-2 px-4 border border-nav hover:border-transparent">                                       
+                                       Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+               
+            </div>
+            <div class="space-y-12 my-16">
+                <div class="w-full border border-nav p-10 lg:px-28 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+                    
+                   
+            <!-- Client1 -->
+                    <!-- Client info -->
+                    <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                        <h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+                    </div>
+                    
+                    <div class="grid  grid-cols-6 gap-4 mt-10">
+                        <div class="col-span-4 sm:col-span-4 md:col-span-3 lg:col-span-4 xl:col-span-4...">
+                            <p class="text-secondary">This Real-estate business was lead by two indiviaduals arjt & ankit, building it all the way from scartch mentored by Gautam Grover</p>
+                        </div>
+                        <div class="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-2 xl:col-span-2...">
+                            <div class="p-2 flex">
+                                <div class="w-1/2">   </div>
+                                <div class="w-1/2 flex justify-end">
+                                    <button onclick="Collab()" type="button" class="bg-transparent text-secondary p-2 
+                                    rounded text-sm w-auto" >
+                                        Collab
+                                    </button>
+                                    
+                                    <button onclick="Submit()" class="bg-transparent text-secondary p-2  rounded text-lg  hover:bg-blue-500 hover:text-white py-2 px-4 border border-nav hover:border-transparent">                                       
+                                       Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+               
+            </div>
+        </section>
+    </div>
+    <script>
+        function Collab()
+    {
+        window.location="Collab.html";
+    }
+     function Submit()
+     {
+        window.location="AddSubmission.html";   
+     }
+    </script>
+}
+        </script>
+        <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/9418f17761.js" crossorigin="anonymous"></script>
+        <script>
+            function toggleMenu() {
+              const mobileMenuContent = document.getElementById('mobileMenuContent')
+              if (mobileMenuContent.getAttribute('class') === 'hidden') {
+                mobileMenuContent.setAttribute('class', 'block')
+              } else {
+                mobileMenuContent.setAttribute('class', 'hidden')
+              }
+            }
+          </script>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
